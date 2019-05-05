@@ -15,8 +15,6 @@ addons:
     - libglib2.0-dev
     - libxml2-dev
     - pdftk
-notifications:
-  slack: debrief-devs:GF1nQSqn2eozH3wQtyuPLAlG
 before_script:
 - export DISPLAY=:99
 - sh -e /etc/init.d/xvfb start
@@ -31,8 +29,9 @@ deploy:
   provider: releases
   skip_cleanup: true
   file_glob: true
+  draft: true
   api_key:
-    secure: KCCJkP6ELz9pIGkBmSRbazRzhKZPq7T58tEIZbthtVv+KoM/JWdN10h3IK/N5Oqdeb2/P5u+93ml1wlU9PkbuwxQ4mpUbaAW41G/9mbEF7U2JLEtS9xSxeIfEBIEtuHxdlECjsgMCLm2lh3CVxbu3S2y9jDnpt35rbh6AN3B44w=
+    secure: d78bd8032e98238baef197df5f43ecd1e28f3cfb
   file:
     - /home/travis/build/debrief/debrief/org.mwc.debrief.product/target/products/DebriefNG-Linux64Bit.zip
     - /home/travis/build/debrief/debrief/org.mwc.debrief.product/target/products/DebriefNG-MacOSX64Bit.zip
