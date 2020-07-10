@@ -55,7 +55,7 @@ after_failure:
 - zip -r org.mwc.debrief.ui_test/target/results.zip org.mwc.debrief.ui_test/target/results
 - curl -u ianmayo:chunkchunk -T org.mwc.debrief.ui_test/target/results.zip chunk.io
 before_deploy:
-- ls /home/travis/build/debrief/debrief/org.mwc.debrief.product/target/products/
+- ls /home/travis/build/saulhidalgoaular/debrief/org.mwc.debrief.product/target/products/
 - ./install-msitools.sh
 - ./contribs/msi/make_x64msi.sh
 deploy:
