@@ -64,7 +64,7 @@ deploy:
   skip_cleanup: true
   edge: true
   api_key:
-    secure: Oqy+moovC3HQ0dbvWHHNOVCsqzq7vpTjlvtFVqqTiMJaCa4OUiCXOuUKr8PXtANCx6yZxrtgYKUxIDX5gpAtTWq3ylPaoedmkx2jSlkf5e4AgT4wLJcstWrwKYyK3NQjc45g3WqRCmsqsrnVQCREwD/Vq09vCt4+nZYGB5FPBmU=
+    secure: K2l4B6t04QxV4iLNBTfTdVTF57NyajY6SemmpCFgP3Ijl4az3RFSVnB9WFTdbUDWeRpQS2eUyW2J9/3pqb+FDbr2SH2af6yZ4Rzjmj4ZrdXaOS9el5wzwYzMztm99PCPhK7w4nzROKbfe5cmYAeTcHNkL527gK9+i5bvMGRc0Rs=
   file:
     - /home/travis/build/saulhidalgoaular/debrief/org.mwc.debrief.product/target/products/DebriefNG-Linux64Bit.zip
     - /home/travis/build/saulhidalgoaular/debrief/org.mwc.debrief.product/target/products/DebriefNG-MacOSX64Bit.zip
